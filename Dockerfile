@@ -5,3 +5,4 @@ RUN mamba clean -a
 RUN mamba install dask-jobqueue
 RUN mamba install requests
 RUN mamba install numpy
+RUN mamba install xarray
