@@ -27,4 +27,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ vars.DOCKERHUB_USERNAME }}/proto-docker:latest
+          tags: ${{ vars.DOCKERHUB_USERNAME }}/proto_cnes_test:latest
