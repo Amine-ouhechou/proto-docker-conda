@@ -47,7 +47,7 @@ RUN mamba install  beautifulsoup4==4.12.3
 RUN mamba install  black==24.10.0
 RUN mamba install  bleach==6.2.0
 RUN mamba install  blinker==1.9.0
-RUN mamba install  blosc==1.11.2
+RUN conda install  blosc==1.11.2
 RUN mamba install  bokeh==3.5.2
 RUN mamba install  boltons==24.0.0
 RUN mamba install  boto3==1.28.64
