@@ -36,7 +36,7 @@ RUN mamba install  async-lru==2.0.4
 RUN mamba install  attrs==24.3.0
 RUN mamba install  av==14.0.1
 RUN mamba install  awscli==2.22.15
-RUN mamba install  awscli-plugin-endpoint==0.4
+RUN pip install  awscli-plugin-endpoint==0.4
 RUN mamba install  awscrt==0.22.0
 RUN mamba install  azure-core==1.32.0
 RUN mamba install  azure-datalake-store==0.0.51
