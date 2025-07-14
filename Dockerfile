@@ -99,7 +99,7 @@ RUN mamba install  dask-ml==2024.4.4
 RUN mamba install  dataclasses==0.8
 RUN mamba install  datapi==0.1.1
 RUN mamba install  datashader==0.16.3
-RUN mamba install  DateTime==5.5
+RUN pip install  DateTime==5.5
 RUN mamba install  debugpy==1.8.11
 RUN mamba install  decorator==5.1.1
 RUN mamba install  defusedxml==0.7.1
