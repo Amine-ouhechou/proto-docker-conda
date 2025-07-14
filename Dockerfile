@@ -71,7 +71,7 @@ RUN mamba install  cfgrib==0.9.14.1
 RUN mamba install  cftime==1.6.4
 RUN mamba install  cgen==2020.1
 RUN mamba install  charset-normalizer==3.4.0
-RUN mamba install  chex==0.1.89
+RUN pip install  chex==0.1.89
 RUN mamba install  ciso==0.2.2
 RUN mamba install  click==8.1.7
 RUN mamba install  click-plugins==1.1.1
