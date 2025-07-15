@@ -122,7 +122,7 @@ RUN mamba install  einops==0.8.0
 RUN mamba install  email_validator==2.2.0
 RUN mamba install  entrypoints==0.4
 RUN mamba install  eodag==3.0.1
-RUN mamba install  eofs==0.0.0
+RUN pip install  eofs==0.0.0
 RUN mamba install  erddapy==2.2.3
 RUN mamba install  esmpy==8.7.0
 RUN mamba install  exceptiongroup==1.2.2
