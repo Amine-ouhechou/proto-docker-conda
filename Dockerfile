@@ -4,7 +4,8 @@ RUN conda list
 
 #RUN mamba clean -a
 
-RUN pip install widetrax
 RUN conda install pyinterp
+RUN pip install widetrax
+
 
 RUN conda list
