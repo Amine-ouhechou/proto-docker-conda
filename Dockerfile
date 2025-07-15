@@ -1,6 +1,6 @@
 FROM cnes/base-notebook:7a05d6a
 #FROM mambaorg/micromamba:latest
-conda list
+RUN conda list
 
 #RUN mamba clean -a
 
